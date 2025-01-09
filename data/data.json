@@ -1,0 +1,57 @@
+{
+    "users": [
+        {
+            "username": "qq",
+            "password": "$2b$12$EJJI11rY3AprfJxs84YBaOSGq2huXd1ygiBGC4j34Ic8OLLp5VjhW",
+            "role": "admin"
+        },
+        {
+            "username": "ww",
+            "password": "$2b$12$RSFaekeXA4ffr0MBuQ9t/OLYEylLWQQn4Ov5gJMybxIRGkWOxICVO",
+            "role": "member",
+            "specialization": "Programista"
+        },
+        {
+            "username": "ee",
+            "password": "$2b$12$93KFPiRpXFx5zCLyckTZBe7fXKug73PQoKJ5NGGPjnoIy7wfw0DcS",
+            "role": "member",
+            "specialization": "Designer"
+        },
+        {
+            "username": "rr",
+            "password": "$2b$12$JzXTrX3sVge92EswIPtEk.HbpCDNg2ui4OR2zSx8gOZt0HdO66.Mi",
+            "role": "member",
+            "specialization": "Project Manager"
+        }
+    ],
+    "boards": [
+        {
+            "board_id": "36440096-9532-4886-b733-8e7d4d506358",
+            "name": "test",
+            "members": [
+                "qq",
+                "ee",
+                "ww"
+            ],
+            "tasks": [
+                {
+                    "task_id": "62e59642-2c4f-4975-a979-f79ce57001df",
+                    "title": "ww",
+                    "description": "ww",
+                    "assigned_users": [
+                        "ww"
+                    ],
+                    "status": "To Fix"
+                }
+            ]
+        },
+        {
+            "board_id": "e7ca5651-3bbc-421b-8218-2ca198912986",
+            "name": "ww",
+            "members": [
+                "qq"
+            ],
+            "tasks": []
+        }
+    ]
+}
